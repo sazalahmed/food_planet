@@ -4911,6 +4911,182 @@ CHECKOUT PAGE START
 =================================== */
 
 
+/*============================
+    FAQ PAGE START
+============================*/
+.wsus__faq_area .accordion-item {
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px !important;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.wsus__faq_area .accordion-item h2 button {
+    background: var(--colorBlack);
+    color: var(--colorWhite);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding-right: 60px;
+}
+
+.wsus__faq_area .accordion-item button:not(.collapsed) {
+    color: var(--colorWhite);
+    background-color: var(--colorPrimary);
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.wsus__faq_area .accordion-button:focus {
+    box-shadow: none;
+}
+
+.wsus__faq_area .accordion-body {
+    padding: 20px;
+}
+
+.wsus__faq_area .accordion-body p {
+    border-left: 3px solid var(--colorPrimary);
+    padding-left: 15px;
+}
+
+.accordion-button::after {
+    background-image: url(../images/faq_plus.jpg);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images//faq_minus.jpg);
+}
+
+.wsus__details_video h4 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
+
+.wsus__faq_form {
+    margin-top: 20px;
+}
+
+.wsus__faq_form form {
+    padding: 25px;
+    background: #fff9f2;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.wsus__faq_form h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.wsus__faq_form input,
+.wsus__faq_form textarea {
+    margin-top: 20px;
+}
+
+.wsus__faq_form button {
+    margin-top: 15px;
+}
+
+/*============================
+    FAQ PAGE END
+============================*/
+
+
+/*===============================
+    BECOME A PARTNER START
+===============================*/
+.wsus__become_a_partner {}
+
+.wsus__partner_registration {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.wsus__partner_reg_overlay {
+    background: linear-gradient(90deg, rgb(35 31 64 / 63%) 0%, rgb(35 31 64 / 55%) 100%);
+}
+
+.wsus__partner_reg_text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wsus__partner_reg_text h2 {
+    font-size: 55px;
+    font-weight: 800;
+    color: var(--colorWhite);
+    text-transform: capitalize;
+}
+
+.wsus__partner_reg_text p {
+    color: var(--colorWhite);
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.wsus__partner_reg_form {}
+
+.wsus__partner_reg_form {
+    background: #ffffff5c;
+    padding: 100px 50px;
+}
+
+.wsus__partner_reg_form h3 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: var(--colorBlack);
+    /* color: var(--colorPrimary); */
+}
+
+.wsus__partner_reg_form input {
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.wsus__partner_reg_form p {
+    color: var(--colorBlack);
+    font-size: 17px;
+    margin: 20px 0px 40px 0px;
+}
+
+.wsus__partner_reg_form p a {
+    display: inline-block;
+    color: red;
+    font-weight: 600;
+}
+
+.wsus__partner_reg_form button {
+    width: 100%;
+}
+
+
+
+
+
+
+/*===============================
+    BECOME A PARTNER END
+===============================*/
+
+
+
+
 /*===============================
     START
 ===============================*/
