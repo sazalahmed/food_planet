@@ -9,6 +9,9 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.exzoom.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/select2.min.css">
     <link rel="stylesheet" href="css/slick.css">
 
     <link rel="stylesheet" href="css/spacing.css">
@@ -39,20 +42,30 @@
                     <li class="nav-item">
                         <a class="nav-link pages" href="#">pages <i class="fas fa-sort-down"></i></a>
                         <ul class="wsus__droap_menu">
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 2</a></li>
-                            <li><a href="#">page 3</a></li>
-                            <li><a href="#">page 4</a></li>
-                            <li><a href="#">page 5</a></li>
-                            <li><a href="#">page 6</a></li>
-                            <li><a href="#">page 7</a></li>
-                            <li><a href="#">page 8</a></li>
-                            <li><a href="#">page 9</a></li>
-                            <li><a href="#">page 10</a></li>
+                            <li><a href="about.html">about us</a></li>
+                            <li><a href="become_a_partner.html">become a partner</a></li>
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="blog_details.html">blog details</a></li>
+                            <li><a href="cart_view.html">cart view</a></li>
+                            <li><a href="check_out.html">checkout</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                            <li><a href="dashboard.html">dashboard</a></li>
+                            <li><a href="login.html">login</a></li>
+                            <li><a href="registration.html">registration</a></li>
+                            <li><a href="forgot_password.html">forgot password</a></li>
+                            <li><a href="menu_details.html">menu details</a></li>
+                            <li><a href="store.html">store</a></li>
+                            <li><a href="store_details.html">store details</a></li>
+                            <li><a href="team.html">team</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="privacy_policy.html">privacy policy</a></li>
+                            <li><a href="terms_condition.html">terms and condition</a></li>
+                            <li><a href="track_details.html">order tacking</a></li>
+                            <li><a href="404.html">404 / error</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="dashboard.html">
                             <span class="img"><img src="images/login_icon.jpg" alt="User"
                                     class="img-fluid w-100"></span>
                             Sazal Ahmed
@@ -163,61 +176,173 @@
     <!--==============================
         BECOME A PARTNER START
     ===============================-->
-    <section class="wsus__become_a_partner">
-        <div class="wsus__partner_registration" style="background: url(images/partner_reg_bg.jpg);">
-            <div class="wsus__partner_reg_overlay">
-                <div class="container">
+    <section class="wsus__become_a_partner mt_100">
+        <div class="container">
+            <div class="wsus__partner_registration" style="background: url(images/partner_reg_bg.jpg);">
+                <div class="wsus__partner_reg_overlay">
                     <div class="row justify-content-center">
-                        <div class="col-xl-5">
-                            <div class="wsus__partner_reg_text">
+                        <div class="col-xl-12">
+                            <div class="wsus__partner_reg_form">
                                 <h2>You prepare the food, we handle the rest</h2>
-                                <p>Food Express is glober platform gives you the flexibility, visibility and
-                                    customer insights you need to connect with more customers. Partner with us today.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-xl-5">
-                            <form class="wsus__partner_reg_form">
-                                <h3>Get Started</h3>
-                                <div class="row">
-                                    <div class="col-xl-12">
-                                        <input type="text" placeholder="Store Name">
+                                <div class="wsus__partner_reg_top">
+                                    <div class="img">
+                                        <label for="seller_mg"><i class="far fa-cloud-upload"></i></label>
+                                        <input type="file" id="seller_mg" hidden>
                                     </div>
-                                    <div class="col-xl-12">
-                                        <input type="text" placeholder="Store Address">
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <input type="text" placeholder="Floor / Suite (Optional )">
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <input type="text" placeholder="First Name">
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <input type="text" placeholder="Last Name">
-                                    </div>
-                                    <div class="col-xl-6">
-                                        <input type="text" placeholder="Phone">
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <input type="email" placeholder="Email Address">
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <input type="text" placeholder="Business Type">
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <p>By clicking “ Submit, ” you agree to Food Express General
-                                            <a href="#">Terms & conditions</a> and acknowledge you have read the <a
-                                                href="#">Privacy Policy</a>
-                                        </p>
-                                        <button class="common_btn" type="submit">submit</button>
+                                    <div class="text">
+                                        <h4>Upload Your Image</h4>
+                                        <p>Choose a image PNG, JPEG, PDF</p>
+                                        <span><b>Note:</b> Max File Size 10MB</span>
                                     </div>
                                 </div>
-                            </form>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Store Name">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Business Type">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="First Name">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Last Address">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="email" placeholder="Email Address">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Phone">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <select class="select_2">
+                                                <option value="">select country</option>
+                                                <option value="">bangladesh</option>
+                                                <option value="">nepal</option>
+                                                <option value="">japan</option>
+                                                <option value="">korea</option>
+                                                <option value="">thailand</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <select class="select_2">
+                                                <option value="">select city</option>
+                                                <option value="">bangladesh</option>
+                                                <option value="">nepal</option>
+                                                <option value="">japan</option>
+                                                <option value="">korea</option>
+                                                <option value="">thailand</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="State">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Zip">
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <input type="text" placeholder="Address">
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <h5>Terms and Conditions</h5>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    By clicking “ Submit, ” you agree to Food Express General
+                                                    <a href="#">Terms & conditions</a> and acknowledge you have read the
+                                                    <a href="#">Privacy Policy</a>.
+                                                </label>
+                                            </div>
+                                            <button class="common_btn" type="submit">submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="wsus__partner_advantage mt_100" style="background: url(images/advantage_bg.jpg);">
+            <div class="wsus__partner_advantage_overlay pt_100 pb_100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-10 m-auto">
+                            <div class="wsus__partner_advantage_text">
+                                <h3>Advantage Of Joining Us</h3>
+                                <ul>
+                                    <li>
+                                        <h4>More Revenue</h4>
+                                        <p>Architecto iusto porro aperiam doloribus expedita nemo exercitationem fuga
+                                            excepturi iste tenetur eaque odit nesciunt ullam sit praesentium eius
+                                            molestias impedit Explicabo assumenda fugit.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Dedicated Support</h4>
+                                        <p>Ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ab enim odio
+                                            possimus, eos necessitatibus soluta obcaecati distinctio libero aperiam
+                                            debitis commodi tempora Obcaecati fugit consequatur.</p>
+                                    </li>
+                                    <li>
+                                        <h4>Constant Flexibility</h4>
+                                        <p>Soluta obcaecati distinctio libero aperiam debitis commodi tempora!
+                                            Obcaecati fugit consequatur architecto iusto porro aperiam, doloribus
+                                            expedita nemo exercitationem fuga excepturi iste tenetur eaque odit.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wsus__work mt_90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3>How it Works</h3>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="wsus__work_single">
+                            <div class="wsus__work_single_img">
+                                <img src="images/work_img_1.jpg" alt="work" class="img-fluid w-100">
+                            </div>
+                            <div class="wsus__work_single_text">
+                                <h4>Delivery Your Way</h4>
+                                <p>Our offering are flexible so you can customiza them to your needs. Get started.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="wsus__work_single">
+                            <div class="wsus__work_single_img">
+                                <img src="images/work_img_2.jpg" alt="work" class="img-fluid w-100">
+                            </div>
+                            <div class="wsus__work_single_text">
+                                <h4>You Prepare</h4>
+                                <p>Our offering are flexible so you can customiza them to your needs. Get started.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="wsus__work_single">
+                            <div class="wsus__work_single_img">
+                                <img src="images/work_img_3.jpg" alt="work" class="img-fluid w-100">
+                            </div>
+                            <div class="wsus__work_single_text">
+                                <h4>Delivery People Arrive</h4>
+                                <p>Our offering are flexible so you can customiza them to your needs. Get started.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
     <!--==============================
         BECOME A PARTNER END
@@ -277,7 +402,7 @@
     <!--==============================
         FOOTER START
     ===============================-->
-    <footer class="wsus__footer pt_100">
+    <footer class="wsus__footer pt_100 xs_pt_70">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4">
@@ -389,13 +514,21 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/simplyCountdown.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/select2.min.js"></script>
-    <script src="js/sticky_sidebar.js"></script>
+    <!--counter up js-->
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.countup.min.js"></script>
+    <!--exzoom js-->
+    <script src="js/jquery.exzoom.js"></script>
+    <!--nice-select js-->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!--select2 js-->
+    <script src="js/select2.min.js"></script>
+    <!--simplyCountdown js-->
+    <script src="js/simplyCountdown.js"></script>
+    <!--slick js-->
+    <script src="js/slick.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
