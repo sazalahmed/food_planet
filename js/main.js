@@ -16,6 +16,17 @@ $(function () {
         });
     }
 
+    //=======MENU SEARCH======
+    $(".menu_search").click(function () {
+        $(".wsus__menu_search_form").addClass("show");
+    });
+
+    $(".close_search").click(function () {
+        $(".wsus__menu_search_form").removeClass("show");
+    });
+
+
+
     //=======CATEGORY SLIDER======
     $('.category_slider').slick({
         slidesToShow: 4,
@@ -118,7 +129,7 @@ $(function () {
     $(window).on('scroll', function () {
         var scrolling = $(this).scrollTop();
 
-        if (scrolling > 500) {
+        if (scrolling > 700) {
             $('.wsus__scroll_btn').fadeIn();
         } else {
             $('.wsus__scroll_btn').fadeOut();
@@ -291,47 +302,44 @@ $(function () {
 
 
     //*==========DASHBOARD PERSONAL INFO==========
-    $(".dash_info_btn").click(function () {
-        $(".wsus_dash_personal_info").toggleClass("show");
-    });
+    // $(".dash_info_btn").click(function () {
+    //     $(".wsus_dash_personal_info").toggleClass("show");
+    // });
 
 
     //*==========DASHBOARD ORDER HISTORY==========
-    $(".view_invoice").on("click", function () {
-        $(".wsus_dashboard_order").fadeOut();
-    });
+    // $(".view_invoice").on("click", function () {
+    //     $(".wsus_dashboard_order").fadeOut();
+    // });
 
-    $('.view_invoice').on('click', function () {
-        $(".wsus__invoice").fadeIn();
-    });
+    // $('.view_invoice').on('click', function () {
+    //     $(".wsus__invoice").fadeIn();
+    // });
 
-    $(".go_back").on("click", function () {
-        $(".wsus_dashboard_order").fadeIn();
-    });
+    // $(".go_back").on("click", function () {
+    //     $(".wsus_dashboard_order").fadeIn();
+    // });
 
-    $(".go_back").on("click", function () {
-        $(".wsus__invoice").fadeOut();
-    });
+    // $(".go_back").on("click", function () {
+    //     $(".wsus__invoice").fadeOut();
+    // });
 
 
     //*==========DASHBOARD ADDRESS==========
-    $(".dash_add_new_address").on("click", function () {
-        $(".address_body").addClass("show_new_address");
-    });
+    // $(".dash_add_new_address").on("click", function () {
+    //     $(".address_body").addClass("show_new_address");
+    // });
 
-    $(".cancel_new_address").on("click", function () {
-        $(".address_body").removeClass("show_new_address");
-    });
+    // $(".cancel_new_address").on("click", function () {
+    //     $(".address_body").removeClass("show_new_address");
+    // });
 
-    $('.dash_edit_btn').on('click', function () {
-        $(".address_body").addClass("show_edit_address");
-    });
+    // $('.dash_edit_btn').on('click', function () {
+    //     $(".address_body").addClass("show_edit_address");
+    // });
 
-    $(".cancel_edit_address").on("click", function () {
-        $(".address_body").removeClass("show_edit_address");
-    });
-
-
-
+    // $(".cancel_edit_address").on("click", function () {
+    //     $(".address_body").removeClass("show_edit_address");
+    // });
 
 });

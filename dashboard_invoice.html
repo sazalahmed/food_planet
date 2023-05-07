@@ -120,8 +120,8 @@
                 <div class="wsus__breadcrumb_text">
                     <h1>dashboard</h1>
                     <ul>
-                        <li><a href="dashboard.html">dashboard</a></li>
-                        <li><a href="#"> information</a></li>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#">invoice</a></li>
                     </ul>
                 </div>
             </div>
@@ -151,13 +151,12 @@
                             </div>
 
                             <ul>
-                                <li><a class="active" href="dashboard.html"><span><i class="fas fa-user"></i></span>
-                                        Parsonal
+                                <li><a href="dashboard.html"><span><i class="fas fa-user"></i></span> Parsonal
                                         Info</a></li>
                                 <li><a href="dashboard_address.html"><span><i class="fas fa-user"></i></span>address</a>
                                 </li>
-                                <li><a href="dashboard_order.html"><span><i class="fas fa-bags-shopping"></i></span>
-                                        Order</a></li>
+                                <li><a class="active" href="dashboard_order.html"><span><i
+                                                class="fas fa-bags-shopping"></i></span> Order</a></li>
                                 <li><a href="dashboard_wishlist.html"><span><i class="far fa-heart"></i></span>
                                         wishlist</a></li>
                                 <li><a href="dashboard_review.html"><span><i class="fas fa-star"></i></span> Reviews</a>
@@ -171,44 +170,215 @@
                     <div class="col-xl-9 col-lg-8 wow fadeInUp" data-wow-duration="1s">
                         <div class="wsus__dashboard_content">
                             <div class="wsus_dashboard_body">
-                                <h3>Welcome to your Profile</h3>
-                                <div class="wsus__dsahboard_overview">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-sm-6 col-md-4">
-                                            <div class="wsus__dsahboard_overview_item">
-                                                <span class="icon"><i class="far fa-shopping-basket"></i></span>
-                                                <h4>total order <span>(76)</span></h4>
-                                            </div>
+                                <div class="wsus__invoice">
+                                    <a href="dashboard_order.html" class="go_back"><i
+                                            class="fas fa-long-arrow-alt-left"></i> go back</a>
+                                    <div class="wsus__track_order">
+                                        <ul>
+                                            <li class="active">Order Process</li>
+                                            <li>Package On Delivary</li>
+                                            <li>Package On Delivared</li>
+                                        </ul>
+                                    </div>
+                                    <div class="wsus__invoice_header">
+                                        <div class="header_address">
+                                            <h4>invoice to</h4>
+                                            <p>7232 Broadway Suite 308, Jackson Heights, 11372, NY, United
+                                                States</p>
+                                            <p>+1347-430-9510</p>
                                         </div>
-                                        <div class="col-xl-4 col-sm-6 col-md-4">
-                                            <div class="wsus__dsahboard_overview_item green">
-                                                <span class="icon"><i class="far fa-shopping-basket"></i></span>
-                                                <h4>Completed <span>(71)</span></h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-6 col-md-4">
-                                            <div class="wsus__dsahboard_overview_item red">
-                                                <span class="icon"><i class="far fa-shopping-basket"></i></span>
-                                                <h4>cancel <span>(05)</span></h4>
-                                            </div>
+                                        <div class="header_address">
+                                            <p><b>invoice no: </b><span>4574</span></p>
+                                            <p><b>Order ID:</b> <span> #4789546458</span></p>
+                                            <p><b>date:</b> <span>10-11-2022</span></p>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="wsus_dash_personal_info">
-                                    <h4>Parsonal Information
-                                        <div class="dash_info_btn">
-                                            <a href="dashboard_info_edit.html" class="edit">edit</a>
+                                    <div class="wsus__invoice_body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr class="border_none">
+                                                        <th class="sl_no">SL</th>
+                                                        <th class="package">item description</th>
+                                                        <th class="price">Price</th>
+                                                        <th class="qnty">Quantity</th>
+                                                        <th class="total">Total</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">01</td>
+                                                        <td class="package">
+                                                            <p>Hyderabadi Biryani</p>
+                                                            <span class="size">small</span>
+                                                            <span class="coca_cola">coca-cola</span>
+                                                            <span class="coca_cola2">7up</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">02</td>
+                                                        <td class="package">
+                                                            <p>Daria Shevtsova</p>
+                                                            <span class="size">medium</span>
+                                                            <span class="coca_cola">coca-cola</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">03</td>
+                                                        <td class="package">
+                                                            <p>Hyderabadi Biryani</p>
+                                                            <span class="size">large</span>
+                                                            <span class="coca_cola2">7up</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">04</td>
+                                                        <td class="package">
+                                                            <p>Hyderabadi Biryani</p>
+                                                            <span class="size">medium</span>
+                                                            <span class="coca_cola">coca-cola</span>
+                                                            <span class="coca_cola2">7up</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">05</td>
+                                                        <td class="package">
+                                                            <p>Daria Shevtsova</p>
+                                                            <span class="size">large</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">04</td>
+                                                        <td class="package">
+                                                            <p>Hyderabadi Biryani</p>
+                                                            <span class="size">medium</span>
+                                                            <span class="coca_cola">coca-cola</span>
+                                                            <span class="coca_cola2">7up</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="sl_no">04</td>
+                                                        <td class="package">
+                                                            <p>Hyderabadi Biryani</p>
+                                                            <span class="size">medium</span>
+                                                            <span class="coca_cola">coca-cola</span>
+                                                            <span class="coca_cola2">7up</span>
+                                                        </td>
+                                                        <td class="price">
+                                                            <b>$120</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>2</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$240</b>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <td class="package" colspan="3">
+                                                            <b>sub total</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b>12</b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$755</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package coupon" colspan="3">
+                                                            <b>(-) Discount coupon</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b></b>
+                                                        </td>
+                                                        <td class="total coupon">
+                                                            <b>$0.00</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package coast" colspan="3">
+                                                            <b>(+) Shipping Cost</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b></b>
+                                                        </td>
+                                                        <td class="total coast">
+                                                            <b>$10.00</b>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="package" colspan="3">
+                                                            <b>Total Paid</b>
+                                                        </td>
+                                                        <td class="qnty">
+                                                            <b></b>
+                                                        </td>
+                                                        <td class="total">
+                                                            <b>$765</b>
+                                                        </td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
                                         </div>
-                                    </h4>
-
-                                    <div class="personal_info_text">
-                                        <p><span>Name:</span> Hasib Ahmed</p>
-                                        <p><span>Email:</span> hasibahmed@gmail.com</p>
-                                        <p><span>Phone:</span> 023 434 54354</p>
-                                        <p><span>Address:</span> 7232 Broadway Suite 308, Jackson Heights,
-                                            11372, NY, United States </p>
                                     </div>
+                                    <a class="print_btn common_btn" href="#"><i class="far fa-print"></i> print
+                                        PDF</a>
+
                                 </div>
                             </div>
                         </div>

@@ -111,6 +111,7 @@
 
 
 
+
     <!--=============================
         BREADCRUMB START
     ==============================-->
@@ -120,8 +121,8 @@
                 <div class="wsus__breadcrumb_text">
                     <h1>dashboard</h1>
                     <ul>
-                        <li><a href="dashboard.html">dashboard</a></li>
-                        <li><a href="#"> information</a></li>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#"> order</a></li>
                     </ul>
                 </div>
             </div>
@@ -151,13 +152,12 @@
                             </div>
 
                             <ul>
-                                <li><a class="active" href="dashboard.html"><span><i class="fas fa-user"></i></span>
-                                        Parsonal
+                                <li><a href="dashboard.html"><span><i class="fas fa-user"></i></span> Parsonal
                                         Info</a></li>
                                 <li><a href="dashboard_address.html"><span><i class="fas fa-user"></i></span>address</a>
                                 </li>
-                                <li><a href="dashboard_order.html"><span><i class="fas fa-bags-shopping"></i></span>
-                                        Order</a></li>
+                                <li><a class="active" href="dashboard_order.html"><span><i
+                                                class="fas fa-bags-shopping"></i></span> Order</a></li>
                                 <li><a href="dashboard_wishlist.html"><span><i class="far fa-heart"></i></span>
                                         wishlist</a></li>
                                 <li><a href="dashboard_review.html"><span><i class="fas fa-star"></i></span> Reviews</a>
@@ -171,43 +171,164 @@
                     <div class="col-xl-9 col-lg-8 wow fadeInUp" data-wow-duration="1s">
                         <div class="wsus__dashboard_content">
                             <div class="wsus_dashboard_body">
-                                <h3>Welcome to your Profile</h3>
-                                <div class="wsus__dsahboard_overview">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-sm-6 col-md-4">
-                                            <div class="wsus__dsahboard_overview_item">
-                                                <span class="icon"><i class="far fa-shopping-basket"></i></span>
-                                                <h4>total order <span>(76)</span></h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-6 col-md-4">
-                                            <div class="wsus__dsahboard_overview_item green">
-                                                <span class="icon"><i class="far fa-shopping-basket"></i></span>
-                                                <h4>Completed <span>(71)</span></h4>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-4 col-sm-6 col-md-4">
-                                            <div class="wsus__dsahboard_overview_item red">
-                                                <span class="icon"><i class="far fa-shopping-basket"></i></span>
-                                                <h4>cancel <span>(05)</span></h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="wsus_dash_personal_info">
-                                    <h4>Parsonal Information
-                                        <div class="dash_info_btn">
-                                            <a href="dashboard_info_edit.html" class="edit">edit</a>
-                                        </div>
-                                    </h4>
-
-                                    <div class="personal_info_text">
-                                        <p><span>Name:</span> Hasib Ahmed</p>
-                                        <p><span>Email:</span> hasibahmed@gmail.com</p>
-                                        <p><span>Phone:</span> 023 434 54354</p>
-                                        <p><span>Address:</span> 7232 Broadway Suite 308, Jackson Heights,
-                                            11372, NY, United States </p>
+                                <h3>order list</h3>
+                                <div class="wsus_dashboard_order">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr class="t_header">
+                                                    <th>Order</th>
+                                                    <th>Date</th>
+                                                    <th>Status</th>
+                                                    <th>Amount</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#2545758745</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>July 16, 2022</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="complete">Complated</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$560</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#2457945235</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>jan 21, 2021</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="complete">complete</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$654</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#2456875648</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>July 11, 2020</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="active">active</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$440</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#7896542130</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>July 16, 2022</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="active">active</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$225</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#4587964125</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>jan 21, 2021</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cancel">cancel</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$335</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#4579654153</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>July 11, 2020</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cancel">cancel</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$550</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#12547965423</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>July 16, 2022</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="complete">Complated</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$545</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#4589635878</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>jan 21, 2021</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="cancel">cancel</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$600</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <h5>#89698745895</h5>
+                                                    </td>
+                                                    <td>
+                                                        <p>July 11, 2020</p>
+                                                    </td>
+                                                    <td>
+                                                        <span class="complete">complete</span>
+                                                    </td>
+                                                    <td>
+                                                        <h5>$200</h5>
+                                                    </td>
+                                                    <td><a href="dashboard_invoice.html" class="view_invoice">View
+                                                            Details</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>

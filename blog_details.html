@@ -20,7 +20,6 @@
 </head>
 
 <body>
-
     <!--==============================
         MENU START
     ===============================-->
@@ -37,7 +36,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <p><i class="far fa-map-marker-alt"></i> Jackson Heights, 11372, NY, United States</p>
+                        <a class="nav-link" href="index.html">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store.html">store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link pages" href="#">pages <i class="fas fa-sort-down"></i></a>
@@ -56,6 +61,7 @@
                             <li><a href="menu_details.html">menu details</a></li>
                             <li><a href="store.html">store</a></li>
                             <li><a href="store_details.html">store details</a></li>
+                            <li><a href="search_page.html">search result</a></li>
                             <li><a href="team.html">team</a></li>
                             <li><a href="faq.html">FAQs</a></li>
                             <li><a href="privacy_policy.html">privacy policy</a></li>
@@ -66,90 +72,43 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="dashboard.html">
-                            <span class="img"><img src="images/login_icon.jpg" alt="User"
-                                    class="img-fluid w-100"></span>
-                            Sazal Ahmed
+                            login/Registration
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link notification_icon" href="#">
-                            <i class="far fa-bell"></i>
-                            <span class="cart_item">03</span>
-                        </a>
-                        <div class="wsus__menu_notification_area">
-                            <div class="wsus__single_notification">
-                                <div class="wsus__notification_item">
-                                    <img src="images/menu2_img_2.jpg" alt="menu" class="img-fluid w-100">
-                                    <h4>Hyderabadi biryani
-                                        <span>Spicy Maxican Grill</span>
-                                    </h4>
-                                </div>
-                                <div class="wsus__notification_rating">
-                                    <h3>How was your last order ?.</h3>
-                                    <p>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </p>
-                                    <span>Ordered 4 days ago</span>
-                                </div>
-                            </div>
-                            <div class="wsus__single_notification">
-                                <div class="wsus__notification_item">
-                                    <img src="images/menu2_img_3.jpg" alt="menu" class="img-fluid w-100">
-                                    <h4>Chicken Masala
-                                        <span>Spicy Maxican Grill</span>
-                                    </h4>
-                                </div>
-                                <div class="wsus__notification_rating">
-                                    <h3>How was your last order ?.</h3>
-                                    <p>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </p>
-                                    <span>Ordered 2 days ago</span>
-                                </div>
-                            </div>
-                            <div class="wsus__single_notification">
-                                <div class="wsus__notification_item">
-                                    <img src="images/menu2_img_3.jpg" alt="menu" class="img-fluid w-100">
-                                    <h4>Hyderabadi biryani
-                                        <span>Spicy Maxican Grill</span>
-                                    </h4>
-                                </div>
-                                <div class="wsus__notification_rating">
-                                    <h3>How was your last order ?.</h3>
-                                    <p>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </p>
-                                    <span>Ordered 5 days ago</span>
-                                </div>
-                            </div>
+                </ul>
 
+                <ul class="wsus__menu_icon d-flex">
+                    <li>
+                        <a class="nav-link menu_search"><i class="far fa-search"></i></a>
+                        <div class="wsus__menu_search_form">
+                            <form>
+                                <span class="close_search"><i class="far fa-times"></i></span>
+                                <input type="text" placeholder="Search . . .">
+                                <button type="submit">search</button>
+                            </form>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link cart_icon" href="#">
+                    <li>
+                        <a class="nav-link notification_icon" href="wishlist.html">
+                            <i class="far fa-heart"></i>
+                            <span class="cart_item">03</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link cart_icon" href="cart_view.html">
                             <i class="fal fa-shopping-basket"></i>
                             <span class="cart_item">06</span>
                         </a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
     <!--==============================
         MENU END
     ===============================-->
+
 
 
     <!--=============================
@@ -439,43 +398,45 @@
     <!--==============================
         SUPPORT START
     ===============================-->
-    <section class="wsus__support mt_100 pt_65 pb_100" style="background: url(images/support_bg.jpg);">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-2">
-                    <div class="wsus__support_item">
-                        <span><i class="fal fa-credit-card"></i></span>
-                        <p>100% Payment Secured</p>
+    <section class="wsus__support" style="background: url(images/support_bg.jpg);">
+        <div class="wsus__support_overlay mt_100 pt_65 pb_100">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2">
+                        <div class="wsus__support_item">
+                            <span><i class="fal fa-credit-card"></i></span>
+                            <p>100% Payment Secured</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="wsus__support_item">
-                        <span><i class="fal fa-money-check-alt"></i></span>
-                        <p>Support lots of Payments</p>
+                    <div class="col-xl-2">
+                        <div class="wsus__support_item">
+                            <span><i class="fal fa-money-check-alt"></i></span>
+                            <p>Support lots of Payments</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="wsus__support_item">
-                        <span><i class="fal fa-comments"></i></span>
-                        <p>24 hours / 7 days Support</p>
+                    <div class="col-xl-2">
+                        <div class="wsus__support_item">
+                            <span><i class="fal fa-comments"></i></span>
+                            <p>24 hours / 7 days Support</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="wsus__support_item">
-                        <span><i class="fal fa-truck-container"></i></span>
-                        <p>Free Delivery with $50</p>
+                    <div class="col-xl-2">
+                        <div class="wsus__support_item">
+                            <span><i class="fal fa-truck-container"></i></span>
+                            <p>Free Delivery with $50</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="wsus__support_item">
-                        <span><i class="fal fa-badge-check"></i></span>
-                        <p>Best Price Guaranteed</p>
+                    <div class="col-xl-2">
+                        <div class="wsus__support_item">
+                            <span><i class="fal fa-badge-check"></i></span>
+                            <p>Best Price Guaranteed</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-2">
-                    <div class="wsus__support_item">
-                        <span><i class="fal fa-mobile"></i></span>
-                        <p>Mobile Apps Ready</p>
+                    <div class="col-xl-2">
+                        <div class="wsus__support_item">
+                            <span><i class="fal fa-mobile"></i></span>
+                            <p>Mobile Apps Ready</p>
+                        </div>
                     </div>
                 </div>
             </div>
