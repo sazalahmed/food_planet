@@ -615,7 +615,7 @@ body.home::before {
 
 .wsus__banner_text form {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     background: var(--colorWhite);
     padding: 15px;
@@ -1044,13 +1044,13 @@ body.home::before {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 20px 20px 15px 20px;
+    padding: 20px 10px 15px 10px;
     border-top: 1px solid #eeeeeebd;
 }
 
 .wsus__single_store ul li a {
     background: #eeeeee8c;
-    padding: 5px 22px;
+    padding: 5px 20px;
     color: var(--colorBlack);
     text-transform: capitalize;
     font-size: 15px;
@@ -1525,7 +1525,7 @@ body.home::before {
     background: #332e58;
     padding: 8px 0;
     border-radius: 30px;
-    min-width: 180px;
+    min-width: 165px;
     margin-right: 10px;
 }
 
@@ -1675,15 +1675,7 @@ body.home::before {
     position: relative;
 }
 
-.wsus__breadcrumb_text {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-}
-
 .wsus__breadcrumb_text h1 {
-    /* text-align: center; */
     color: var(--colorWhite);
     text-transform: capitalize;
     font-size: 50px;
@@ -1694,7 +1686,6 @@ body.home::before {
 .wsus__breadcrumb_text ul {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
 }
 
 .wsus__breadcrumb_text ul li a {
@@ -2603,8 +2594,8 @@ body.home::before {
 
 .wsus__cart_popup_text .price del {
     font-size: 16px;
-    color: var(--colorPrimary);
-    font-weight: 500;
+    color: red;
+    font-weight: 400;
     margin-left: 10px;
 }
 
@@ -3528,6 +3519,7 @@ body.home::before {
     background-size: cover !important;
     overflow: hidden;
     padding: 40px;
+    margin-top: 25px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -5710,12 +5702,6 @@ CHECKOUT PAGE START
     margin: 0px;
 }
 
-.wsus__dashboard_menu ul {}
-
-.wsus__dashboard_menu ul li {}
-
-.wsus__dashboard_menu ul li a {}
-
 .wsus__dashboard_menu a {
     text-align: left;
     display: block;
@@ -6577,14 +6563,11 @@ CHECKOUT PAGE START
 /*===============================
     SEARCH PAGE START
 ===============================*/
-.wsus__search_page {}
-
 .wsus__search_form {
     box-shadow: var(--box-shadow);
     padding: 30px;
     background: #fff;
     border-radius: 5px;
-    /* border: 1px solid #eee; */
 }
 
 .wsus__search_form form {
