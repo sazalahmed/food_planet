@@ -21,6 +21,25 @@
         left: -10px;
     }
 
+    .wsus__post_review {
+        margin-top: 25px;
+    }
+
+    .wsus__menu_cart_area ul li .menu_cart_text {
+        width: 70%;
+    }
+
+    .wsus__menu_description_area .wsus__single_comm_text {
+        width: 80%;
+    }
+
+    .wsus__menu_cart_area_btn a {
+        width: 48%;
+    }
+
+    .wsus__single_team_img {
+        height: 300px;
+    }
 
 }
 
@@ -58,7 +77,7 @@
     }
 
     .wsus__offer_text h2 {
-        font-size: 44px;
+        font-size: 36px;
     }
 
     .wsus__single_blog_text ul li {
@@ -80,16 +99,77 @@
         width: 75%;
     }
 
+    .wsus__partner_reg_form .form-check-label {
+        width: 98%;
+    }
 
+    .wsus__single_comm_text {
+        width: 83%;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 68%;
+    }
+
+    .wsus__contact_img {
+        height: 635px;
+    }
+
+
+    /* store details start */
+    .wsus__store_det_header .map {
+        width: 410px;
+    }
+
+    .wsus__store_det_search form {
+        width: 50%;
+    }
+
+    /* store details end*/
+
+
+    /* track details start */
+    .wsus__track_header_text ul li {
+        min-width: 170px;
+    }
+
+    /* track details end */
+
+
+    /* menu details start */
+    .wsus__menu_details_text h2 {
+        font-size: 30px;
+    }
+
+    .wsus__menu_cart_header h3 {
+        font-size: 16px;
+    }
+
+    .wsus__post_review {
+        margin-top: 25px;
+    }
+
+    .wsus__menu_cart_area ul li .menu_cart_text {
+        width: 74%;
+    }
+
+    .wsus__menu_cart_area_btn a {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .details_size .form-check label,
+    .details_extra_item .form-check label {
+        max-width: 45%;
+    }
+
+    /* menu details end */
 }
-
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
 
     /* home page start */
-
-
     .wsus__banner_img {
         left: 0;
     }
@@ -133,7 +213,11 @@
     }
 
     .wsus__offer_text h2 {
-        font-size: 38px;
+        font-size: 30px;
+    }
+
+    .wsus__offer_text h5 {
+        font-size: 16px;
     }
 
     .wsus__support_item {
@@ -211,9 +295,199 @@
     /* about page end */
 
 
+    /* become a partner start */
+    .wsus__partner_reg_overlay {
+        padding: 40px;
+    }
 
+    .wsus__partner_reg_top .text h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__partner_reg_form .form-check-label {
+        width: 95%;
+    }
+
+    .wsus__partner_reg_form h5 {
+        margin-bottom: 15px;
+    }
+
+    .wsus__partner_advantage_text h3 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__work h3 {
+        font-size: 30px;
+    }
+
+    .wsus__work_single_img {
+        height: 350px;
+    }
+
+    .wsus__work_single_text {
+        padding: 20px;
+    }
+
+    .wsus__work_single_text h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /* become a partner end */
+
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 350px;
+    }
+
+    .wsus__blog_details_text {
+        padding: 15px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__blog_quot_text p span {
+        bottom: 40px;
+    }
+
+    .wsus__blog_quot_text h4 span {
+        margin-left: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .blog_det_button li {
+        padding: 20px;
+    }
+
+    .blog_det_button li a img {
+        height: 110px !important;
+    }
+
+    .blog_det_button li a p {
+        font-size: 15px;
+    }
+
+    .blog_det_button li a p span {
+        font-size: 16px;
+    }
+
+    .wsus__single_comm_text {
+        width: 79%;
+        margin-top: 10px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 62%;
+    }
+
+    .wsus__blog_categori ul li a {
+        font-size: 14px;
+    }
+
+    .wsus__blog_categori ul li a span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .wsus__blog_tags ul li a {
+        font-size: 14px;
+    }
+
+    /* blog details end */
+
+    .wsus__contact_info {
+        padding: 0;
+    }
+
+    .wsus__contact_form {
+        padding: 30px;
+    }
+
+    .wsus__contact_img {
+        height: 720px;
+    }
+
+    .wsus__track_order ul li::before {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        top: -25px;
+    }
+
+    .wsus__track_order ul li {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+
+    /* store details start */
+    .wsus__store_det_header .map {
+        width: 300px;
+    }
+
+    .wsus__store_det_search form {
+        width: 50%;
+    }
+
+    /* store details end*/
+
+
+    /* track details start */
+    .wsus__track_header_text ul li {
+        min-width: 160px;
+    }
+
+    .wsus__track_header_text ul li span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .wsus__track_header_text ul li::after {
+        top: 25px;
+    }
+
+    /* track details end */
+
+
+    /* menu details start */
+    .wsus__menu_details_text h2 {
+        margin-top: 30px;
+    }
+
+    .menu_det_description ul li,
+    .menu_det_description ol li {
+        width: 100%;
+    }
+
+    .wsus__menu_cart_header h3 {
+        font-size: 16px;
+    }
+
+    .wsus__post_review {
+        margin-top: 25px;
+    }
+
+    .wsus__menu_cart_area ul li .menu_cart_text {
+        width: 74%;
+    }
+
+    .wsus__menu_cart_area_btn a {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* menu details end */
 }
-
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -242,6 +516,7 @@
         border: none;
         outline: none;
         margin-right: 12px;
+        text-align: center;
     }
 
     .navbar-toggler:focus {
@@ -257,7 +532,7 @@
     }
 
     .navbar-toggler.show .close_icon {
-        display: block;
+        display: inline-block;
     }
 
     .main_menu .container {
@@ -279,11 +554,11 @@
     }
 
     .main_menu .wsus__menu_icon {
-        border-left: 0;
-        margin-left: 0;
+        border: 0 !important;
+        margin: 0 !important;
         background: var(--colorBlack);
         justify-content: center;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0px 20px 0px !important;
     }
 
     .wsus__banner {
@@ -361,7 +636,7 @@
     }
 
     .wsus__testimonial_text {
-        padding: 20px 0px 30px 0px;
+        padding: 20px 0px 30px 0px !important;
         min-height: auto;
         width: 64%;
     }
@@ -407,6 +682,16 @@
 
     .wsus__footer_app_subdcribe form {
         margin-right: 50px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        max-height: 300px;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
     }
 
     /* home page end */
@@ -457,10 +742,275 @@
 
     /* about page end */
 
+
+    /* become a partner start */
+    .wsus__partner_reg_overlay {
+        padding: 40px;
+    }
+
+    .wsus__partner_reg_form h2 {
+        font-size: 28px;
+    }
+
+    .wsus__partner_reg_top .text h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__partner_reg_form .form-check-label {
+        width: 98%;
+    }
+
+    .wsus__partner_reg_form h5 {
+        margin-bottom: 15px;
+    }
+
+    .wsus__partner_advantage_text {
+        padding: 40px;
+    }
+
+    .wsus__partner_advantage_text h3 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__partner_advantage_text ul li {
+        width: 100%;
+    }
+
+    .wsus__work h3 {
+        font-size: 30px;
+    }
+
+    .wsus__work_single_img {
+        height: 340px;
+    }
+
+    .wsus__work_single_text {
+        padding: 20px;
+    }
+
+    .wsus__work_single_text h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /* become a partner end */
+
+    /* blog details start */
+    .wsus__blog_details_text {
+        padding: 15px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__blog_quot_text p span {
+        margin-left: -10px;
+        bottom: 40px;
+    }
+
+    .wsus__blog_quot_text h4 span {
+        margin-left: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .blog_det_button li {
+        padding: 20px;
+    }
+
+    .blog_det_button li a img {
+        height: 110px !important;
+    }
+
+    .blog_det_button li a p {
+        font-size: 16px;
+    }
+
+    .blog_det_button li a p span {
+        font-size: 16px;
+    }
+
+    .wsus__single_comm_text {
+        width: 82%;
+    }
+
+    .comment_input {
+        margin-bottom: 25px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 85%;
+    }
+
+    .wsus__blog_det_slider_item {
+        height: 200px;
+    }
+
+    /* blog details end */
+
+    .wsus__cart_list {
+        margin-bottom: 25px;
+    }
+
+    /* contact start */
+    .wsus__contact_top {
+        padding: 0px 40px 40px 40px;
+        position: static;
+        margin-top: 100px;
+    }
+
+    .wsus__contact_info {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .wsus__contact_form {
+        padding: 25px;
+    }
+
+    .wsus__contact_map {
+        height: 400px;
+    }
+
+    .wsus__contact_img {
+        height: 700px;
+        width: 400px;
+    }
+
+    /* contact end */
+
+
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 20px !important;
+    }
+
+    .wsus__dashboard_menu {
+        border-right: none !important;
+    }
+
+    .wsus_dash_personal_info {
+        padding-bottom: 5px;
+    }
+
+    .wsus__track_order ul li::before {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        top: -25px;
+    }
+
+    .wsus__track_order ul li {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    .details_size .form-check label,
+    .details_extra_item .form-check label {
+        max-width: 40%;
+    }
+
+    /* dashboard end */
+
+
+    .wsus__login_img {
+        width: 450px;
+    }
+
+    /* store details start */
+    .wsus__store_det_header .text {
+        width: 65%;
+        margin: 30px 0px;
+    }
+
+    .wsus__store_det_header .text h3 {
+        font-size: 30px;
+    }
+
+    .wsus__store_det_header {
+        padding: 15px;
+    }
+
+    .wsus__store_det_header .map {
+        width: 100%;
+        height: 330px;
+    }
+
+    .wsus__store_det_search form {
+        width: 60%;
+    }
+
+    .wsus__store_det_search .select_area {
+        width: 37%;
+    }
+
+    .wsus__all_store_banner {
+        height: 350px;
+    }
+
+    /* store details end */
+
+    /* wishlist start */
+    .wsus__wishlist .wsus__pro_img {
+        width: 150px;
+        height: 115px;
+    }
+
+    .wsus__wishlist .wsus__pro_name {
+        width: 260px;
+    }
+
+    .wsus__wishlist .wsus__pro_select {
+        width: 180px;
+    }
+
+    .wsus__wishlist .wsus__pro_status {
+        width: 130px;
+    }
+
+    .wsus__wishlist .wsus__pro_tk {
+        width: 180px;
+    }
+
+    /* wishlist end */
+
+
+    /* menu details start */
+    .wsus__menu_details_area {
+        padding: 10px;
+    }
+
+    .wsus__menu_details_text h2 {
+        margin-top: 30px;
+    }
+
+    .menu_det_description ul li,
+    .menu_det_description ol li {
+        width: 100%;
+    }
+
+    .wsus__post_review {
+        margin: 25px 0px;
+    }
+
+    .menu_det_description {
+        margin-bottom: 25px;
+    }
+
+    .wsus__menu_cart_area ul li .menu_cart_text {
+        width: 85%;
+    }
+
+    /* menu details end */
+    .wsus__track_header_text a {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
 }
-
-
-
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -488,6 +1038,7 @@
         border-radius: 3px;
         border: none;
         outline: none;
+        text-align: center;
         margin-right: 12px;
     }
 
@@ -504,7 +1055,7 @@
     }
 
     .navbar-toggler.show .close_icon {
-        display: block;
+        display: inline-block;
     }
 
     .main_menu .container {
@@ -526,11 +1077,11 @@
     }
 
     .main_menu .wsus__menu_icon {
-        border-left: 0;
-        margin-left: 0;
+        border: 0 !important;
+        margin: 0 !important;
         background: var(--colorBlack);
         justify-content: center;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0px 20px 0px !important;
     }
 
     .wsus__banner {
@@ -559,8 +1110,6 @@
     }
 
     .wsus__banner_text .btn_area button {
-        /* font-size: 13px; */
-        /* padding: 10px 25px; */
         border-radius: 4px;
     }
 
@@ -580,7 +1129,6 @@
     .wsus__banner_img {
         margin-top: 50px;
         margin-bottom: 225px;
-        /* padding-bottom: 100px; */
         left: 0;
         display: block;
     }
@@ -596,7 +1144,6 @@
         height: 200px;
         left: 10px;
         bottom: -130px;
-        /* position: static; */
         transform: translate(0);
         -webkit-transform: translate(0);
         -moz-transform: translate(0);
@@ -608,15 +1155,12 @@
         font-size: 36px;
         top: 100px;
         left: 25px;
-        /* right: 0; */
         width: 150px;
         height: 150px;
     }
 
     .wsus__heading_area h3 {
-
         font-size: 26px;
-
     }
 
     .wsus__heading_area a {
@@ -655,8 +1199,8 @@
     }
 
     .wsus__testimonial_text {
-        padding: 30px;
-        padding-top: 0;
+        padding: 30px !important;
+        /* padding-top: 0 !important; */
         min-height: auto;
     }
 
@@ -696,6 +1240,16 @@
 
     .wsus__single_blog_img {
         height: 300px;
+    }
+
+    .main_menu .wsus__droap_menu {
+        max-height: 300px;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
     }
 
     /* home page end */
@@ -758,11 +1312,408 @@
 
     /* about page end */
 
+    /* become a partner start */
+    .wsus__partner_reg_overlay {
+        padding: 40px;
+    }
 
+    .wsus__partner_reg_form h2 {
+        font-size: 20px;
+    }
+
+    .wsus__partner_reg_top .text h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__partner_reg_form .form-check-label {
+        width: 97%;
+    }
+
+    .wsus__partner_reg_form h5 {
+        margin-bottom: 15px;
+    }
+
+    .wsus__partner_advantage_text {
+        padding: 40px;
+    }
+
+    .wsus__partner_advantage_text h3 {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__partner_advantage_text ul li {
+        width: 100%;
+    }
+
+    .wsus__work h3 {
+        font-size: 30px;
+    }
+
+    .wsus__work_single_img {
+        height: 270px;
+    }
+
+    .wsus__work_single_text {
+        padding: 20px;
+    }
+
+    .wsus__work_single_text h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .wsus__partner_reg_top .img {
+        margin-right: 20px;
+    }
+
+    .wsus__partner_reg_top .text {
+        width: 60%;
+    }
+
+    /* become a partner end */
+
+
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 300px;
+    }
+
+    .wsus__blog_details_text {
+        padding: 15px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__blog_quot_text {
+        padding: 20px !important;
+    }
+
+    .wsus__blog_quot_text .left_icon {
+        display: none;
+    }
+
+    .wsus__blog_quot_text p span {
+        margin-left: -10px;
+        bottom: 40px;
+    }
+
+    .wsus__blog_quot_text h4 span {
+        margin-left: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .blog_tags_share .tags {
+        margin-bottom: 10px;
+    }
+
+    .blog_det_button li {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .blog_det_button li a img {
+        height: 110px !important;
+    }
+
+    .blog_det_button li a p {
+        font-size: 16px;
+    }
+
+    .blog_det_button li a p span {
+        font-size: 16px;
+    }
+
+    .wsus__single_comm_text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .comment_input {
+        margin-bottom: 25px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 80%;
+    }
+
+    /* blog details end */
+
+    .wsus__cart_list {
+        margin-bottom: 25px;
+    }
+
+    /* contact start */
+    .wsus__contact_top {
+        padding: 0px 40px 40px 40px;
+        position: static;
+        margin-top: 100px;
+    }
+
+    .wsus__contact_info {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_form {
+        padding: 40px;
+        margin: 0 !important;
+    }
+
+    .wsus__contact_map {
+        height: 300px;
+    }
+
+    /* contact end */
+
+
+    /* dashboard start */
+    .wsus__dashboard_content {
+        padding: 20px !important;
+    }
+
+    .wsus__dashboard_menu {
+        border-right: none !important;
+    }
+
+    .wsus_dash_personal_info {
+        padding-bottom: 5px;
+    }
+
+    .wsus_dashboard_body .wsus__invoice {
+        padding: 20px;
+    }
+
+    .wsus__track_order ul li::before {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -20px;
+    }
+
+    .wsus__track_order ul {
+        padding: 10px 0px;
+    }
+
+    .wsus__invoice_header .header_address {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wsus__single_food_img {
+        height: 280px;
+    }
+
+    .details_size .form-check label,
+    .details_extra_item .form-check label {
+        max-width: 45%;
+    }
+
+    .wsus_dash_personal_info p span {
+        width: 100%;
+    }
+
+    /* dashboard end */
+
+
+    /* login start */
+    .wsus__login_img {
+        display: none;
+    }
+
+    .wsus__login_area {
+        margin: 0;
+        border-radius: 15px;
+    }
+
+    /* login end */
+
+
+    /* store details start */
+    .wsus__store_det_header .text {
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .wsus__store_det_header .text h3 {
+        font-size: 30px;
+    }
+
+    .wsus__store_review_modal .wsus__store_img {
+        height: auto;
+    }
+
+    .wsus__store_det_header {
+        padding: 15px;
+    }
+
+    .wsus__store_det_header .map {
+        width: 100%;
+        height: 250px;
+    }
+
+    .wsus__store_det_search form {
+        width: 100%;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .wsus__store_det_search form button {
+        padding: 13px 25px;
+        position: static;
+        width: 100%;
+    }
+
+    .wsus__store_det_search form input {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .wsus__store_det_search .select_area {
+        width: 100%;
+    }
+
+    .wsus__all_store_banner {
+        height: 300px;
+    }
+
+    /* store details end */
+
+
+    /* track order start */
+    .wsus__track_header_text ul li span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .wsus__track_header_text h5 {
+        font-size: 18px;
+    }
+
+    .wsus__track_header_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__track_header_text ul li {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .wsus__track_header_text ul li {
+        border-bottom: 1px solid var(--colorPrimary);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__track_header_text ul li p {
+        margin-top: 0;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .wsus__track_header_text ul li::after {
+        display: none;
+    }
+
+    .wsus__track_header_text ul li:last-child {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wsus__track_header_text a {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .wsus__track_header_map {
+        height: 270px;
+    }
+
+    .wsus__track_header_text h3,
+    .wsus__invoice_area_header h3,
+    .wsus__invoice h3 {
+        font-size: 24px;
+    }
+
+    .simply-amount {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__invoice_area_header_text p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__invoice h3 span {
+        font-size: 12px;
+    }
+
+    /* track order end */
+
+
+    /* wishlist start */
+    .wsus__wishlist .wsus__pro_img {
+        width: 150px;
+        height: 115px;
+    }
+
+    .wsus__wishlist .wsus__pro_name {
+        width: 260px;
+    }
+
+    .wsus__wishlist .wsus__pro_select {
+        width: 180px;
+    }
+
+    .wsus__wishlist .wsus__pro_status {
+        width: 130px;
+    }
+
+    .wsus__wishlist .wsus__pro_tk {
+        width: 180px;
+    }
+
+    /* wishlist end */
+
+
+    /* menu details start */
+    .wsus__menu_details_text h2 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .menu_det_description ul li,
+    .menu_det_description ol li {
+        width: 100%;
+    }
+
+    .wsus__menu_cart_header h3 {
+        font-size: 16px;
+    }
+
+    .wsus__post_review {
+        margin: 25px 0px;
+    }
+
+    .menu_det_description {
+        margin-bottom: 25px;
+    }
+
+    /* menu details end */
 }
-
-
-
 
 
 @media (max-width: 575.99px) {
@@ -790,6 +1741,7 @@
         border-radius: 3px;
         border: none;
         outline: none;
+        text-align: center;
         margin-right: 12px;
     }
 
@@ -806,7 +1758,7 @@
     }
 
     .navbar-toggler.show .close_icon {
-        display: block;
+        display: inline-block;
     }
 
     .main_menu .container {
@@ -828,11 +1780,11 @@
     }
 
     .main_menu .wsus__menu_icon {
-        border-left: 0;
-        margin-left: 0;
+        border: 0 !important;
+        margin: 0 !important;
         background: var(--colorBlack);
         justify-content: center;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0px 20px 0px !important;
     }
 
     .wsus__banner {
@@ -954,13 +1906,22 @@
     }
 
     .wsus__testimonial_text {
-        padding: 30px;
-        padding-top: 0;
+        padding: 30px !important;
+        /* padding-top: 0 !important; */
         min-height: unset;
     }
 
+    .wsus__testimonial_text p {
+        padding-top: 0;
+    }
+
+    .wsus__testimonial_text p::before,
     .wsus__testimonial_img::after {
         display: none;
+    }
+
+    .wsus__testimonial_text h4 {
+        font-size: 20px;
     }
 
     .wsus__support_item {
@@ -992,6 +1953,16 @@
     .wsus_copyright_text span {
         height: auto;
         max-width: unset;
+    }
+
+    .main_menu .wsus__droap_menu {
+        max-height: 300px;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        -webkit-transform: translateX(-50%) !important;
+        -moz-transform: translateX(-50%) !important;
+        -ms-transform: translateX(-50%) !important;
+        -o-transform: translateX(-50%) !important;
     }
 
     /* home page end */
@@ -1070,12 +2041,479 @@
     /* about page end */
 
 
+    /* become a partner start */
+    .wsus__partner_reg_overlay {
+        padding: 20px;
+    }
+
+    .wsus__partner_reg_form h2 {
+        font-size: 20px;
+    }
+
+    .wsus__partner_reg_top .text h4 {
+        margin-top: 15px;
+    }
+
+    .wsus__partner_reg_form .form-check-label {
+        width: 95%;
+    }
+
+    .wsus__partner_reg_form h5 {
+        margin-bottom: 15px;
+    }
+
+    .wsus__partner_advantage_text {
+        padding: 20px;
+    }
+
+    .wsus__partner_advantage_text h3 {
+        font-size: 26px;
+        margin-bottom: 0;
+    }
+
+    .wsus__partner_advantage_text ul li {
+        width: 100%;
+    }
+
+    .wsus__work h3 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+
+    .wsus__work_single_img {
+        height: auto;
+    }
+
+    /* become a partner end */
+
+
+    /* blog details start */
+    .wsus__blog_details_img {
+        height: 250px;
+    }
+
+    .wsus__blog_details_text {
+        padding: 15px;
+    }
+
+    .wsus__blog_details_text h1,
+    .wsus__blog_details_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__blog_quot_text {
+        padding: 20px !important;
+    }
+
+    .wsus__blog_quot_text .left_icon {
+        display: none;
+    }
+
+    .wsus__blog_quot_text p span {
+        margin-left: -10px;
+        bottom: 40px;
+    }
+
+    .wsus__blog_quot_text h4 span {
+        margin-left: 0;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .blog_tags_share .tags {
+        margin-bottom: 10px;
+    }
+
+    .blog_det_button li {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .blog_det_button li a img {
+        height: 110px !important;
+    }
+
+    .blog_det_button li a p {
+        font-size: 16px;
+    }
+
+    .blog_det_button li a p span {
+        font-size: 16px;
+    }
+
+    .wsus__single_comm_text {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .wsus__single_comm_text h3 span {
+        display: block;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .comment_input {
+        margin-bottom: 25px;
+    }
+
+    .wsus__related_blog ul li .text {
+        width: 63%;
+    }
+
+    .wsus__single_blog_text .title {
+        font-size: 20px;
+    }
+
+    /* blog details end */
+
+
+    .wsus__cart_list {
+        margin-bottom: 25px;
+    }
+
+    .wsus__checkout_form h5 a {
+        margin-top: 10px;
+    }
+
+    /* contact start */
+    .wsus__contact_top {
+        padding: 0px 20px 40px 20px;
+        position: static;
+        margin-top: 100px;
+    }
+
+    .wsus__contact_info {
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .wsus__contact_img {
+        display: none;
+    }
+
+    .wsus__contact_form {
+        padding: 30px;
+        margin: 0 !important;
+    }
+
+    .wsus__contact_map {
+        height: 300px;
+    }
+
+    /* contact end */
+
+
+    /* dashboard start*/
+    .wsus_dashboard_new_address,
+    .wsus_dashboard_edit_address {
+        padding: 15px;
+    }
+
+    .wsus__dashboard_area {
+        border: none !important;
+    }
+
+    .wsus__dashboard_content {
+        padding: 20px 0px 0px 0px !important;
+    }
+
+    .wsus_dashboard_new_address .form-check,
+    .wsus_dashboard_edit_address .form-check {
+        margin-right: 10px;
+    }
+
+    .common_btn {
+        padding: 10px 25px;
+    }
+
+    .wsus__dashboard_menu {
+        border: 1px solid #292b7517 !important;
+        border-bottom: 0 !important;
+    }
+
+    .wsus_dash_personal_info {
+        padding: 20px 20px 1px 20px;
+    }
 
 
 
 
+    .wsus_dashboard_body .wsus__invoice {
+        padding: 0;
+    }
+
+    .wsus__track_order ul li::before {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        top: -20px;
+    }
+
+    .wsus__track_order ul {
+        padding: 10px 0px;
+    }
+
+    .wsus__invoice_header .header_address {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .wsus__invoice .go_back {
+        margin-top: 25px;
+    }
+
+    .details_size .form-check label,
+    .details_extra_item .form-check label {
+        max-width: 70%;
+    }
+
+    .wsus_dashboard_body h3 {
+        font-size: 20px;
+    }
+
+    .wsus_dash_personal_info p span {
+        width: 100%;
+    }
+
+    /* dashboard ebd*/
 
 
+    /* login start */
+    .wsus__login_img {
+        display: none;
+    }
 
+    .wsus__login_area {
+        padding: 25px;
+        margin: 0;
+        border-radius: 15px;
+    }
+
+    .wsus__login_area h2 {
+        font-size: 25px;
+    }
+
+    /* login end */
+
+
+    /* search page start */
+    .wsus__search_form form button {
+        position: static;
+        width: 100%;
+        margin-top: 35px;
+        padding: 15px 25px;
+    }
+
+    .wsus__search_form {
+        padding: 20px 20px 0px 20px;
+    }
+
+    /* search page end */
+
+
+    /* store details start */
+    .wsus__store_det_header .text {
+        width: 100%;
+        margin: 30px 0px;
+    }
+
+    .wsus__store_det_header .text h3 {
+        font-size: 30px;
+    }
+
+    .wsus__store_review_modal .wsus__store_img {
+        height: auto;
+    }
+
+    .wsus__store_det_header {
+        padding: 15px;
+    }
+
+    .wsus__store_det_header .map {
+        width: 100%;
+        height: 250px;
+    }
+
+    .wsus__store_det_search form {
+        width: 100%;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .wsus__store_det_search form button {
+        padding: 13px 25px;
+        position: static;
+        width: 100%;
+    }
+
+    .wsus__store_det_search form input {
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+    }
+
+    .wsus__store_det_search .select_area {
+        width: 100%;
+    }
+
+    .wsus__all_store_banner {
+        height: 220px;
+    }
+
+    /* store details end */
+
+
+    /* track order start */
+    .wsus__track_header,
+    .wsus__invoice_area,
+    .wsus__invoice {
+        padding: 20px;
+    }
+
+    .wsus__track_header_text ul li span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .wsus__track_header_text h5 {
+        font-size: 18px;
+    }
+
+    .wsus__track_header_text h3 {
+        font-size: 25px;
+    }
+
+    .wsus__track_header_text ul li {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .wsus__track_header_text ul li {
+        border-bottom: 1px solid var(--colorPrimary);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wsus__track_header_text ul li p {
+        margin-top: 0;
+        font-size: 16px;
+        margin-left: 15px;
+    }
+
+    .wsus__track_header_text ul li::after {
+        display: none;
+    }
+
+    .wsus__track_header_text ul li:last-child {
+        border: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wsus__track_header_text a {
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .wsus__track_header_map {
+        height: 230px;
+    }
+
+    .wsus__track_header_text h3,
+    .wsus__invoice_area_header h3,
+    .wsus__invoice h3 {
+        font-size: 24px;
+    }
+
+    .simply-amount {
+        width: 54px;
+        height: 54px;
+        line-height: 54px;
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    .wsus__invoice_area_header_text p {
+        margin-bottom: 15px;
+    }
+
+    .wsus__invoice h3 span {
+        font-size: 12px;
+    }
+
+    /* track order end */
+
+
+    /* wishlist start */
+    .wsus__wishlist .wsus__pro_img {
+        width: 150px;
+        height: 115px;
+    }
+
+    .wsus__wishlist .wsus__pro_name {
+        width: 260px;
+    }
+
+    .wsus__wishlist .wsus__pro_select {
+        width: 180px;
+    }
+
+    .wsus__wishlist .wsus__pro_status {
+        width: 130px;
+    }
+
+    .wsus__wishlist .wsus__pro_tk {
+        width: 170px;
+    }
+
+    /* wishlist end */
+
+
+    /* menu details start */
+    .wsus__menu_details_area {
+        padding: 10px;
+    }
+
+    .wsus__menu_details_text h2 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .menu_det_description ul li,
+    .menu_det_description ol li {
+        width: 100%;
+    }
+
+    .wsus__menu_cart_area_btn a {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .wsus__menu_cart_header h3 {
+        font-size: 16px;
+    }
+
+    .wsus__post_review {
+        margin: 25px 0px;
+    }
+
+    .wsus__menu_description_area .nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+    .menu_det_description {
+        margin-bottom: 25px;
+    }
+
+    /* menu details end */
+    .wsus__pagination nav ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
 
 }

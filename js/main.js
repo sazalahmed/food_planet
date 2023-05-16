@@ -158,16 +158,16 @@ $(function () {
 
 
     //=======STORE DETAILS SLIDER======
-    $('.store_det_slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        dots: false,
-        arrows: true,
-        nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
-        prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
-    });
+    // $('.store_det_slider').slick({
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 4000,
+    //     dots: false,
+    //     arrows: true,
+    //     nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
+    //     prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+    // });
 
 
 
@@ -278,7 +278,7 @@ $(function () {
 
     //=======MENU DETAILS SLIDER======
     $('.menu_det_slider').slick({
-        slidesToShow: 4,
+        slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 4000,
@@ -288,6 +288,12 @@ $(function () {
         prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
 
         responsive: [
+            {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 5,
+                }
+            },
             {
                 breakpoint: 1400,
                 settings: {
